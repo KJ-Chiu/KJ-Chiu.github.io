@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: DotSlash
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: KJ Chiu
+language: zh-tw
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://KJ-Chiu.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,4 +98,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/KJ-Chiu/KJ-Chiu.github.io
+  branch: gh-pages
