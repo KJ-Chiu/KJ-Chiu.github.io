@@ -100,4 +100,4 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/KJ-Chiu/KJ-Chiu.github.io
-  branch: gh-pages
+  branch: master
