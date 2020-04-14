@@ -155,9 +155,9 @@ toc:
 # SNS Menu
 sns:
     email: nh0985264711@gmail.com
-    facebook: "https://www.facebook.com/facebook"
-    twitter: "https://twitter.com/twitter"
-    googleplus: "https://www.google.com/"
+    facebook:
+    twitter:
+    googleplus:
     instagram:
     tumblr:
     github:
