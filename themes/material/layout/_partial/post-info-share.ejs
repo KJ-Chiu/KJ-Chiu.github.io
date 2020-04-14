@@ -3,14 +3,6 @@
     <span class="visuallyhidden">share</span>
 </button>
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
-    <!-- Share Weibo -->
-    <% if(theme.sns_share.weibo === true) { %>
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=<%= page.title %>&url=<%= config.url + url_for(path) %>&pic=<%- config.url + theme.head.favicon %>&searchPic=false&style=simple" target="_blank">
-            <li class="mdl-menu__item">
-                <%= __('share.toWeibo') %>
-            </li>
-        </a>
-    <% } %>
 
     <!-- Share Twitter -->
     <% if(theme.sns_share.twitter === true) { %>
@@ -44,15 +36,6 @@
         <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=<%- config.url + url_for(path) %>&title=<%= page.title %>" target="_blank">
             <li class="mdl-menu__item">
                 <%= __('share.toLinkedIn') %>
-            </li>
-        </a>
-    <% } %>
-
-    <!-- Share QQ -->
-    <% if(theme.sns_share.qq === true) { %>
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=<%= config.title %>&title=<%= page.title %>&summary=<%= config.description %>&pics=<%- config.url + theme.head.favicon %>&url=<%- config.url +  url_for(path) %>" target="_blank">
-            <li class="mdl-menu__item">
-                <%= __('share.toQQ') %>
             </li>
         </a>
     <% } %>

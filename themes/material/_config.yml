@@ -158,25 +158,18 @@ sns:
     facebook: "https://www.facebook.com/facebook"
     twitter: "https://twitter.com/twitter"
     googleplus: "https://www.google.com/"
-    weibo:
     instagram:
     tumblr:
     github:
     linkedin:
-    zhihu:
-    bilibili:
     telegram:
-    v2ex:
-    segmentfault:
 
 # SNS Share Switch
 sns_share:
     twitter: true
     facebook: true
     googleplus: true
-    weibo: true
     linkedin: false
-    qq: false
     telegram: false
 
 # Sidebar Customize
