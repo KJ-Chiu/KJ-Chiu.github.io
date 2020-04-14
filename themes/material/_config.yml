@@ -10,7 +10,6 @@ head:
     keywords:
     site_verification:
         google:
-        baidu:
 
     # Enable generate structured-data as JSON+LD for SEO or not.
     #    Set as 'false' if it cause some wrong when `hexo g`.
@@ -124,18 +123,6 @@ qrcode:
 prettify:
     enable: false
     theme: "github-v2"
-
-#    Hanabi (https://github.com/egoist/hanabi)
-#        line_number: [true/false] # Show line number for code block
-#        includeDefaultColors: [true/false] # Use default hanabi colors
-#        customColors: This value accept a string or am array to setting for hanabi colors.
-#                    - If `includeDefaultColors` is true, this will append colors to the color pool
-#                    - If `includeDefaultColors` is false, this will instead default color pool
-hanabi:
-    enable: false
-    line_number: true
-    includeDefaultColors: true
-    customColors:
 
 # Post License
 # You can specify the text you want to show in the end of your posts and pages, HTML tag is supported.
