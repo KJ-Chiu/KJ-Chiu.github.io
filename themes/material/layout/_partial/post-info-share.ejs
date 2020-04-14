@@ -3,28 +3,6 @@
     <span class="visuallyhidden">share</span>
 </button>
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
-    <% if(theme.leancloud.enable === true) { %>
-    <!-- Leancloud Views -->
-        <a class="post_share-link" href="#">
-            <li class="mdl-menu__item">
-                <%- partial('_widget/leancloud-views_num') %>
-            </li>
-        </a>
-    <% } %>
-
-    <% if(theme.busuanzi.enable === true) { %>
-        <% if(theme.busuanzi.post_pv === true) { %>
-            <!-- Busuanzi Views -->
-            <a class="post_share-link" href="#">
-                <li class="mdl-menu__item">
-                    <span id="busuanzi_container_page_pv">
-                        <span id="busuanzi_value_page_pv"></span>&nbsp;<%= __('post.views') %>
-                    </span>
-                </li>
-            </a>
-        <% } %>
-    <% } %>
-
     <!-- Share Weibo -->
     <% if(theme.sns_share.weibo === true) { %>
         <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=<%= page.title %>&url=<%= config.url + url_for(path) %>&pic=<%- config.url + theme.head.favicon %>&searchPic=false&style=simple" target="_blank">

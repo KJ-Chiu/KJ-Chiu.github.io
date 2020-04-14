@@ -230,46 +230,6 @@ sidebar:
 # Integrated Services
 # ---------------------------------------------------------------
 
-# Comment Systems
-# Available value of "use":
-#     disqus | disqus_click | changyan | livere | gitment | gitalk | valine | wildfire
-# If you want to use gitment or gitalk,you should get the client_id and client_secret from https://github.com/settings/applications/new
-# If you want to use valine,you should get the app_id and app_key from https://leancloud.cn ,more setting please see https://valine.js.org
-comment:
-    use:
-    shortname: # duoshuo or disqus shortname
-    changyan_appid:
-    changyan_conf:
-    changyan_thread_key_type: path
-    livere_data_uid:
-    gitment_repo:   # git repo of the hexo
-    gitment_owner:  # git repo's owner
-    gitment_client_id:  # github app client id
-    gitment_client_secret :  # github app client secret
-    valine_leancloud_appId:  # leancloud application app id
-    valine_leancloud_appKey:  # leancloud application app key
-    valine_notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
-    valine_verify: false # valine verify code (true/false)
-    valine_pageSize: 10 # comment list page size
-    valine_avatar: identicon # gravatar style https://valine.js.org/#/avatar
-    valine_lang: zh-tw # i18n
-    valine_placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
-    valine_guest_info: nick,mail,link #valine comment header info
-    gitalk_repo: # git repo of the hexo
-    gitalk_owner: # git repo's owner
-    gitalk_client_id: # github app client id
-    gitalk_client_secret: # github app client secret
-    wildfire_database_provider: firebase # firebase or wilddog
-    wildfire_wilddog_site_id:
-    wildfire_firebase_api_key:
-    wildfire_firebase_auth_domain:
-    wildfire_firebase_database_url:
-    wildfire_firebase_project_id:
-    wildfire_firebase_storage_bucket:
-    wildfire_firebase_messaging_sender_id:
-    wildfire_theme: light # light or dark
-    wildfire_locale: en # en or zh-CN
-
 # Search Systems
 # Available value:
 #     swiftype | google | local
@@ -284,20 +244,6 @@ analytics:
     google_site_id:
     baidu_site_id:
     cnzz_site_id:
-
-# Leancloud Views
-leancloud:
-    enable: false
-    app_id: #你的 app_id
-    app_key: #你的 app_key
-    av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
-
-# Busuanzi 不蒜子 Views
-busuanzi:
-    enable: false
-    all_site_uv: false
-    post_pv: false
-    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
 
 # Files Vendors
 # Set a CDN for the files src you want to customize. The url should with protocol.
