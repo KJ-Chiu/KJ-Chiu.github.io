@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.dotslash.tw/2020/04/26/go-image-converter/</loc>
+    
+    <lastmod>2020-04-26T15:24:58.666Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.dotslash.tw/2020/04/19/mocha-babel7/</loc>
     
-    <lastmod>2020-04-20T16:27:29.571Z</lastmod>
+    <lastmod>2020-04-26T13:52:36.343Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.dotslash.tw/2020/04/16/windows-docker-time-correction/</loc>
     
-    <lastmod>2020-04-18T16:25:05.427Z</lastmod>
+    <lastmod>2020-04-26T13:52:35.349Z</lastmod>
     
   </url>
   
