@@ -1,0 +1,52 @@
+/* your styles go here */
+.sidebar-content {
+  height: 100%;
+}
+
+.sidebar-logo-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  white-space: nowrap;
+}
+.sidebar-logo-title > img {
+  max-width: 50%;
+}
+
+.box-masonry .box-masonry-image {
+  background: white;
+}
+
+@media (min-width: 768px) {
+  #sidebar {
+    height: 95vh;
+  }
+  .sidebar-content {
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  .sidebar-logo-title {
+    margin: 0 0 5rem 0;
+  }
+  .sidebar-heading {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .sidebar-logo-title {
+    flex-direction: column;
+  }
+  .sidebar-logo-title > img {
+    max-width: 80%;
+  }
+
+  .sidebar-content {
+    padding: 0;
+  }
+
+  .social {
+    text-align: center;
+  }
+}

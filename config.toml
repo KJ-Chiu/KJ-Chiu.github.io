@@ -1,0 +1,65 @@
+baseURL = "https://blog.dotslash.tw/"
+languageCode = "zh-TW"
+title = "帶點斜槓"
+
+theme="hugo-creative-portfolio-theme"
+googleAnalytics = ""
+
+[params]
+  logoURL = "/img/logo.png"
+
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "default"
+  description = "寫程式不需鑽研，每個專案都是一場冒險。"
+  copyright = "&copy;2021 KJ Chiu"
+  sidebarAbout = [
+    "大二接觸程式至今，從 PHP 到 Go；從 Bootstrap 到 Styled Component；從 Java 到 Flutter。沒有最好的語言只有最適合的語言。",
+    "偶然的機會漂下高雄，看著跟著沙灘、夕陽、猴子一起讀完大學。有幸去加拿大交換一學期後回臺北面對社會至今。"
+  ]
+
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = ""
+
+    # Optional Matomo analytics (formerly piwik)
+      # [params.analytics.matomo]
+      #  URL = "https://stats.example.com"
+      #  ID = "42"
+      #  # Track all subdomains with "*.example.com" (Optional)
+      #  domain = "www.example.com"
+      #  # Optional integrity check hash
+      #  hash = ""
+
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Web Maker"
+  url = "portfolio/"
+  home = true
+
+  [[params.navlinks]]
+  name = "關於我"
+  url = "about/"
+
+  [params.social]
+  facebook      = "https://www.facebook.com/profile.php?id=100000283886934"
+  #  googleplus    = "full profile url in googleplus"
+  email         = "kj.chiu73@gmail.com"
+  #  twitter       = "full profile url in twitter"
+  linkedin      = "https://www.linkedin.com/in/%E5%86%A0%E8%9E%8D-%E9%82%B1-117154110/"
+  #  stackoverflow = "full profile url in stackoverflow"
+  #  instagram     = "full profile url in instagram"
+  github        = "https://github.com/KJ-Chiu"
+  #  gitlab        = "full profile url in gitlab"
+  #  youtube       = "full profile url in youtube"
+  #  whatsapp      = "wa.me service link"
